@@ -1,0 +1,133 @@
+.card{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+    padding: 1rem 1.5rem;
+    position: relative;
+}
+
+.group1{
+    display: flex;
+    align-items: center;
+}
+
+.group1 img{
+    height: 70px;
+}
+
+.group2{
+    margin: 0 20px;
+}
+
+.group2-group{
+    display: flex;
+}
+
+.group2-group > button{
+    margin: 0 4px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 10px;
+    padding: 3px 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.company{
+    color: rgb(58, 134, 134);
+    font-weight: 700;
+}
+
+.btn1{
+    background-color: rgb(58, 134, 134);
+}
+
+.btn2{
+    background-color: black;
+}
+
+.title{
+    font-weight:bolder;
+    line-height: 30px;
+}
+
+.sub-items{
+    font-size: 12px;
+}
+
+.sub-items > span{
+    margin-left: 10px;
+}
+
+.categories button{
+    margin-right: 10px;
+    font-weight: bolder;
+    color: rgb(58, 134, 134);
+    border: none;
+    padding: 5px;
+    border-radius: 13px;
+}
+
+.categories button:hover{
+    background-color: rgb(58, 134, 134);
+    color: white;
+}
+
+hr{
+    display: none;
+}
+
+.sub-items{
+    color: rgb(58, 134, 134);
+    font-weight:600;
+}
+
+@media screen and (max-width: 480px){
+    .card{
+        flex-direction: column;
+        margin-top: 3rem;
+        align-items:flex-start;
+        padding: 2rem 1rem;
+        border-radius: 5px;
+    }
+
+    .group1{
+        width: 100%;
+        
+    }
+
+    .group1 img{
+      position: absolute;
+       top: -30px;
+       height: 60px;
+    }
+
+    .group2{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .categories{
+       flex-wrap: wrap;
+    }
+
+    .categories button{
+        margin: 5px;
+    }
+
+    hr{
+        display: block;
+        margin: 1rem 0;
+    }
+
+    .title{
+        line-height: 45px;
+    }
+
+    
+
+}
