@@ -7,6 +7,7 @@ import Datas from "./data";
 const App = () => {
   const dataElements = Datas.map(data => {
     return <Card  
+      key= {data.id}
       company={data.company} 
       logo={data.logo} 
       new={data.new} 

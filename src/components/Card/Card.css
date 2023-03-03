@@ -1,12 +1,13 @@
 .card{
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: white;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
     padding: 1rem 1.5rem;
     position: relative;
+    border-radius: 4px;
 }
 
 .group1{

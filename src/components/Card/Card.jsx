@@ -9,8 +9,8 @@ const Card = (props) => {
         <div className="group2">
           <div className="group2-group">
             <p className="company">{props.company}</p>
-            {props.new && (<button className="btn1"> NEW!</button>)}
-            {props.featured && (<button className="btn2"> FEATURED </button>)}
+            {props.new && <button className="btn1"> NEW!</button>}
+            {props.featured && <button className="btn2"> FEATURED </button>}
           </div>
           <p className="title">{props.position}</p>
           <p className="sub-items">{props.postedAt} <span> . {props.contract}</span> <span> . {props.location}</span></p>
