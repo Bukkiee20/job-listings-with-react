@@ -8,18 +8,7 @@ const App = () => {
   const dataElements = Datas.map(data => {
     return <Card  
       key= {data.id}
-      company={data.company} 
-      logo={data.logo} 
-      new={data.new} 
-      featured={data.featured} 
-      position={data.position} 
-      role={data.role} 
-      level={data.level} 
-      postedAt={data.postedAt} 
-      contract={data.contract} 
-      location={data.location} 
-      languages={data.languages} 
-      tools={data.tools} 
+      data={data} 
       />
   })
 
